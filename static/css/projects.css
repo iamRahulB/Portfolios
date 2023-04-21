@@ -1,0 +1,22 @@
+.container-project{
+	width:17rem;
+	height:6rem;
+	margin-left:10px;
+	
+}
+
+.name-container{
+	width:15rem;
+	text-align:center;
+	border:1px solid white;
+	margin-top:10px;
+	margin-left:16px;
+  border-radius: 40px 0 40px 0;
+	
+}
+
+.name-container{
+	font-size:20px;
+	color:white;
+}
+

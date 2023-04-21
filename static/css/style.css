@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/static/img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  height: 90%;
+  width: 90%;
+  border-radius: 2rem;
+  opacity: 1;
+  background-color: #1a1a2e;
+  padding: 2rem;
+}

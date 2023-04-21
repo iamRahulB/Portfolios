@@ -1,0 +1,72 @@
+{% extends "template.html" %}
+
+{% block content %}
+
+
+<!doctype html>
+<html>
+    <head>
+        <title>Image Captioning App</title>
+		<style>
+			.container-image-upload-form{
+				width:100%;
+				border:1px solidwhite;
+				border-radius:20px;			}
+
+			.container-image-upload-form  input{
+				width:60%;
+				font-size:20px;
+				margin-top:10px;
+				border-radius:10px;
+			}
+			.prompt-text{
+				padding:10%;
+				text-align:center;
+				width:100%;
+				border-radius:20px;
+			}
+			h1{
+				width:50%;
+				color:white;
+				border-radius:20px;
+				
+			}
+			body{
+				text-align:center;
+								border-radius:20px;
+				box-sizing:border-box;
+
+			}
+			form{
+				border:1px solid white;
+				padding:20px;
+				width:50%;
+				margin:10px;
+				border-radius:20px;
+				margin-left:25%;
+			}
+		</style>
+    </head>
+    <body>
+		
+		<div style="text-align: center;width:100%;margin-left:25%;margin-top:6rem;">
+  <h1>Generate Image By entering Text!</h1>
+		</div>
+
+        
+		<div class="container-image-upload-form">
+			
+			<form action="/captions" method="POST" enctype="multipart/form-data">
+			<textarea class="prompt-text" name="user_text" placeholder="Enter your query"></textarea>
+            <input type="submit" value="See Magic!">
+        </form>
+			<p style="border:1px solid gray;border-radius:20px;color:white;font-size:20px;padding:10px;margin-top:20px;width:50%;margin-left:25%">Try : make angry white cat image,
+			You can ask for any image to make..
+			for eg. white banana image. You can Add your own text</p>
+		</div>
+        
+    </body>
+</html>
+
+
+{% endblock %}

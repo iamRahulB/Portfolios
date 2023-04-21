@@ -1,0 +1,54 @@
+.container-card{
+	display:grid;
+	  grid-template-columns: auto auto auto;
+	width:84.3rem;
+	height:33rem;
+	align-items:center;
+	justify-content:center;
+	margin-left:8px;
+	display:flex;
+
+}
+
+.container-blocks{
+	height:400px;
+	width:400px;
+	border:1px solid #ffffff;
+	margin:20px;
+	margin-top:30px;
+	border-radius:30px;
+	
+
+
+}
+
+.container-blocks h2{
+	text-align:center;
+	border:1px solid #494646;
+	width:290px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:55px;
+	border-radius:7px;
+	color:white;
+	
+}
+.project-detail p{
+	border:1px solid #494646;
+	width:360px;
+	margin-left:19px;
+	color:white;
+	padding:15px;
+	border-radius:10px
+}
+.project-detail button{
+	width:130px;
+	padding:10px;
+	
+    border-radius: 8px;
+}
+.project-detail{
+
+	text-align: center;
+	
+}
