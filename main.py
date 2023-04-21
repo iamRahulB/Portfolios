@@ -37,6 +37,7 @@ def first():
 @app.route("/captions", methods=["POST"])
 def project1():
 
+	
 	prompt = request.form.get("user_text")
 
 	if not prompt:
