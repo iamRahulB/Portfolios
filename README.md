@@ -22,6 +22,6 @@
 	<h2>Usage</h2>
 	<p>To use this project, simply download the files and open the "index.html" file in your web browser.</p>
 	<h2>Credits</h2>
-	<p>Created by [Your Name].</p>
+	<p>Created by Rahul Bhole.</p>
 </body>
 </html>
