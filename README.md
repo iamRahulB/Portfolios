@@ -11,6 +11,7 @@
 		<li>HTML</li>
 		<li>CSS</li>
 		<li>Python</li>
+		<li>Flask</li>
 	</ul>
 	<h2>Project Descriptions</h2>
 	<p>Here are some of the projects showcased on this website:</p>
@@ -18,6 +19,7 @@
 		<li><a href="#">Project 1</a></li>
 		<li><a href="#">Project 2</a></li>
 		<li><a href="#">Project 3</a></li>
+		
 	</ul>
 	<h2>Usage</h2>
 	<p>To use this project, simply download the files and open the "index.html" file in your web browser.</p>
