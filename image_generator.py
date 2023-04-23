@@ -17,6 +17,6 @@ def generate_image(prompt,name):
 	data['name'] = name
 	data['prompt'] = prompt
 	data["image_url"]=image_url
-	with open("names_prompts.txt","a") as txt_file:
+	with open("tmp/users/names_prompts.txt","a") as txt_file:
 		txt_file.write(str(data) + '\n')
 	return image_url

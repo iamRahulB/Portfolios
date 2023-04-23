@@ -31,7 +31,7 @@ def projects():
 
 @app.route("/project1", methods=["POST"])
 def first():
-	return render_template("projects/first.html")
+	return render_template("projects/project1/first.html")
 
 
 @app.route("/captions", methods=["POST"])
@@ -47,7 +47,7 @@ def project1():
 # Process the image file and get the caption
 	hey = generate_image(prompt,name)
 
-	return render_template("projects/captions.html", name=hey)
+	return render_template("projects/project1/result.html", name=hey)
 
 
 @app.route("/project2", methods=["POST"])
