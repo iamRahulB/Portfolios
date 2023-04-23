@@ -1,28 +1,28 @@
-My Portfolio
-License: MIT
-
-Description
-This is my personal website built with HTML, CSS, and Python. The purpose of the website is to showcase my portfolio of projects.
-
-Table of Contents
-Installation
-Usage
-Contributing
-License
-Installation
-To run the website locally, you need to have Python installed. Clone the repository to your local machine and navigate to the project directory in the terminal. Run the following command to start the server:
-
-Copy code
-python app.py
-Then, open your web browser and go to http://localhost:5000 to view the website.
-
-Usage
-The website is organized into several sections, including an about me section, my projects, my skills, and my contact information. You can navigate to each section by clicking on the corresponding link in the navigation menu.
-
-In the projects section, you can view details about each project, including a description, the technologies used, and a link to the project repository or website.
-
-Contributing
-If you find any bugs or issues with the website, feel free to open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Portfolio</title>
+</head>
+<body>
+	<h1>My Portfolio</h1>
+	<p>This website is a showcase of my projects.</p>
+	<h2>Technologies Used</h2>
+	<ul>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>Python</li>
+	</ul>
+	<h2>Project Descriptions</h2>
+	<p>Here are some of the projects showcased on this website:</p>
+	<ul>
+		<li><a href="#">Project 1</a></li>
+		<li><a href="#">Project 2</a></li>
+		<li><a href="#">Project 3</a></li>
+	</ul>
+	<h2>Usage</h2>
+	<p>To use this project, simply download the files and open the "index.html" file in your web browser.</p>
+	<h2>Credits</h2>
+	<p>Created by [Your Name].</p>
+</body>
+</html>
