@@ -5,7 +5,7 @@ from image_generator import generate_image
 from flask import session
 
 app = Flask(__name__)
-app.secret_key = 'ihfheiufhiweuhf7efyw8eyf8ye4y4'
+app.secret_key = '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'
 
 openai.api_key = os.environ["OPENAI_API"]
 
