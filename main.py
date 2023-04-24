@@ -58,5 +58,3 @@ def project2():
 @app.route("/project3", methods=["POST"])
 def project3():
 	return "Developement in Progress By Rahul"
-
-app.run()
