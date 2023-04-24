@@ -15,12 +15,7 @@
 	</ul>
 	<h2>Project Descriptions</h2>
 	<p>Here are some of the projects showcased on this website:</p>
-	
-	
-	
-		<a href="https://devrahul.onrender.com/">Project 1</a>
-	
-	
+	<a href="https://devrahul.onrender.com/">Project 1</a>
 	<p>To use this project, simply download the files and open the "index.html" file in your web browser.</p>
 	<h2>Credits</h2>
 	<p>Created by Rahul Bhole.</p>
