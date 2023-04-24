@@ -59,4 +59,3 @@ def project2():
 def project3():
 	return "Developement in Progress By Rahul"
 
-app.run(host='0.0.0.0', port=81)
