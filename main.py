@@ -32,6 +32,9 @@ def projects():
 @app.route("/project1", methods=["POST"])
 def first():
 	return render_template("projects/project1/first.html")
+app.run(host='0.0.0.0', port=81)
+
+
 
 
 @app.route("/captions", methods=["POST"])
