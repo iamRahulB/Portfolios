@@ -5,7 +5,7 @@ from image_generator import generate_image
 from flask import session
 
 app = Flask(__name__)
-app.secret_key = '16U2eAoXunVwzaXDRzvT3BlbkFJvdmCx8wEReaW'
+app.secret_key = 'ihfheiufhiweuhf7efyw8eyf8ye4y4'
 
 openai.api_key = os.environ["OPENAI_API"]
 
@@ -32,9 +32,6 @@ def projects():
 @app.route("/project1", methods=["POST"])
 def first():
 	return render_template("projects/project1/first.html")
-app.run()
-
-
 
 
 @app.route("/captions", methods=["POST"])
@@ -62,3 +59,4 @@ def project2():
 def project3():
 	return "Developement in Progress By Rahul"
 
+app.run()
