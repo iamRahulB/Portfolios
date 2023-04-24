@@ -19,8 +19,6 @@
 	
 	<ul>
 		<li><a href="https://devrahul.onrender.com/">Project 1</a></li>
-		
-		
 	</ul>
 	
 	<p>To use this project, simply download the files and open the "index.html" file in your web browser.</p>
