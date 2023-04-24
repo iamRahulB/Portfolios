@@ -17,9 +17,9 @@
 	<p>Here are some of the projects showcased on this website:</p>
 	
 	
-	<ul>
-		<li><a href="https://devrahul.onrender.com/">Project 1</a></li>
-	</ul>
+	
+		<a href="https://devrahul.onrender.com/">Project 1</a>
+	
 	
 	<p>To use this project, simply download the files and open the "index.html" file in your web browser.</p>
 	<h2>Credits</h2>
